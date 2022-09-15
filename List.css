@@ -1,0 +1,85 @@
+body {
+    padding: 55px 0;
+    font-family: 'Roboto';
+}
+
+
+.faq .faq-list {
+    padding: 0;
+    list-style: none;
+}
+
+.faq .faq-list li {
+    border-bottom: 1px solid #d4e5fc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.faq .faq-list .question {
+    display: block;
+    position: relative;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #454545;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.faq .faq-list .holderOfDropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .faq-list .question:hover {
+    color: #4200FF;
+}
+
+.faq .faq-list i {
+    font-size: 24px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+.no-dropdown-li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.faq-list details {
+    margin: 40px 40px 0 40px;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.question2 {
+
+    position: relative;
+    /* font-family: 'Roboto Slab', serif; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #454545;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question2 a {
+    text-decoration: none;
+    font-weight: bold;
+}
